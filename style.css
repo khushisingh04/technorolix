@@ -1,0 +1,113 @@
+.topnav {
+    background-color:#070217e5;
+    overflow: hidden;
+  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1%;
+    font-size: 3em;
+  }
+  /* Change the color of links on hover */
+.topnav a:hover {
+  background-color:skyblue;
+  color: black;
+  
+  }
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color:skyblue;
+    color: white;
+  }
+  .container{
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+     min-height: 100vh;
+     background-image: url(banner.bg.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 0%;
+     box-shadow: inset;
+    }
+    
+      p{
+        text-align: center;
+        font-size: 10em;
+        margin-top: -20%;
+        position: relative;
+        color: palevioletred;
+        width: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+        
+      }
+        #demo{
+        width: 100%;
+        height: 500px;
+        border-radius: 2px;
+        box-sizing: border-box;
+        font-size: 10em;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  h1{
+    font-size: 25em;
+    margin-top: 3%;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+
+  }
+  @keyframes effect {
+    0% {
+        background: linear-gradient(
+                #bc88a9, #f61074);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+
+h2{
+    font-size: 15em;
+    margin-top:-2% ;
+     font-family: serif;
+  color: transparent;
+  text-align: center;
+  animation: effect 2s linear infinite; 
+}
+
+
+h3{
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 2%;
+  color:rgb(15, 77, 169);
+
+}
+.right_header{
+  text-align: end;
+  color: #fff;
+  font-size: 4em;
+}
+h4{
+  font-size: 5em;
+  color:#cd0985;
+  margin-top: -3%;
+}
